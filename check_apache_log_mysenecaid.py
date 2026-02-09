@@ -112,9 +112,7 @@ if __name__ == "__main__":
     if not args:
         print("Error: No log files provided.")
         sys.exit(1)
-    for i in range(10):
-        print(f"Loading {sys.argv[1]} {(i)}")
-       
+    
     load_logs(args)
 
     if is_default:
